@@ -1,0 +1,8 @@
+C:\Users\USER\source\repos\StringEncoder\api\bin\Release\net7.0\publish\api.exe
+C:\Users\USER\source\repos\StringEncoder\api\bin\Release\net7.0\publish\appsettings.Development.json
+C:\Users\USER\source\repos\StringEncoder\api\bin\Release\net7.0\publish\appsettings.json
+C:\Users\USER\source\repos\StringEncoder\api\bin\Release\net7.0\publish\global.json
+C:\Users\USER\source\repos\StringEncoder\api\bin\Release\net7.0\publish\api.dll
+C:\Users\USER\source\repos\StringEncoder\api\bin\Release\net7.0\publish\api.deps.json
+C:\Users\USER\source\repos\StringEncoder\api\bin\Release\net7.0\publish\api.runtimeconfig.json
+C:\Users\USER\source\repos\StringEncoder\api\bin\Release\net7.0\publish\api.pdb

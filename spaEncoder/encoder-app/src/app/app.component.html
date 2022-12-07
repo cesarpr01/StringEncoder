@@ -1,0 +1,38 @@
+<header>
+  <mat-toolbar>
+    <span>Encoder App</span>
+  </mat-toolbar>
+</header>
+
+<main>
+  <section>
+    <form class="encoder-form">
+      <h3> Type some text in input bellow to convert to base64</h3>
+      <mat-divider></mat-divider>
+      <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Place Text to Encode</mat-label>
+        <input matInput [(ngModel)]="text" name="text" maxlength="256" placeholder="Ex. Hello World!">
+        <mat-hint align="start"><strong>Don't disclose personal info</strong> </mat-hint>
+        <mat-hint align="end">{{text.length}} / 256</mat-hint>
+      </mat-form-field>
+
+      <section>
+
+        <div class="button-row">
+          <button mat-stroked-button color="primary" (click)="getEncodedText()">
+            Encode!
+          </button>
+          <button mat-flat-button color="warn" (click)="cancellEncoding()">
+            Cancel
+          </button>
+        </div>
+      </section>
+
+    </form>
+    <mat-card class="encoded-string" *ngIf="textList.length > 0">
+      <mat-card-content>{{textList.join('')}}</mat-card-content>
+    </mat-card>
+  </section>
+</main>
+
+<router-outlet></router-outlet>
