@@ -21,7 +21,7 @@ Install spaEncoder\encoder-app with npm
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/cesarpr01/StringEncoder.git
 ```
 
 Go to the project directory
